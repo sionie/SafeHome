@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90CFE34B1400AFD900B03915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CFE34A1400AFD900B03915 /* UIKit.framework */; };
+		90CFE34D1400AFD900B03915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CFE34C1400AFD900B03915 /* Foundation.framework */; };
+		90CFE34F1400AFD900B03915 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CFE34E1400AFD900B03915 /* CoreGraphics.framework */; };
+		90CFE3551400AFD900B03915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90CFE3531400AFD900B03915 /* InfoPlist.strings */; };
+		90CFE3571400AFD900B03915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CFE3561400AFD900B03915 /* main.m */; };
+		90CFE35B1400AFD900B03915 /* SafeHomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CFE35A1400AFD900B03915 /* SafeHomeAppDelegate.m */; };
+		90CFE35E1400AFD900B03915 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90CFE35C1400AFD900B03915 /* MainWindow.xib */; };
+		90CFE3611400AFD900B03915 /* SafeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CFE3601400AFD900B03915 /* SafeHomeViewController.m */; };
+		90CFE3641400AFD900B03915 /* SafeHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90CFE3621400AFD900B03915 /* SafeHomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90CFE3461400AFD900B03915 /* SafeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CFE34A1400AFD900B03915 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90CFE34C1400AFD900B03915 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90CFE34E1400AFD900B03915 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90CFE3521400AFD900B03915 /* SafeHome-Info.plist */ = {isa = PBXFileReference; path = "SafeHome-Info.plist"; sourceTree = "<group>"; };
+		90CFE3541400AFD900B03915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90CFE3561400AFD900B03915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90CFE3581400AFD900B03915 /* SafeHome-Prefix.pch */ = {isa = PBXFileReference; path = "SafeHome-Prefix.pch"; sourceTree = "<group>"; };
+		90CFE3591400AFD900B03915 /* SafeHomeAppDelegate.h */ = {isa = PBXFileReference; path = SafeHomeAppDelegate.h; sourceTree = "<group>"; };
+		90CFE35A1400AFD900B03915 /* SafeHomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeHomeAppDelegate.m; sourceTree = "<group>"; };
+		90CFE35D1400AFD900B03915 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		90CFE35F1400AFD900B03915 /* SafeHomeViewController.h */ = {isa = PBXFileReference; path = SafeHomeViewController.h; sourceTree = "<group>"; };
+		90CFE3601400AFD900B03915 /* SafeHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeHomeViewController.m; sourceTree = "<group>"; };
+		90CFE3631400AFD900B03915 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SafeHomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90CFE3431400AFD900B03915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CFE34B1400AFD900B03915 /* UIKit.framework in Frameworks */,
+				90CFE34D1400AFD900B03915 /* Foundation.framework in Frameworks */,
+				90CFE34F1400AFD900B03915 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CFE33B1400AFD800B03915 = {
+			isa = PBXGroup;
+			children = (
+				90CFE3501400AFD900B03915 /* SafeHome */,
+				90CFE3491400AFD900B03915 /* Frameworks */,
+				90CFE3471400AFD900B03915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90CFE3471400AFD900B03915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CFE3461400AFD900B03915 /* SafeHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CFE3491400AFD900B03915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90CFE34A1400AFD900B03915 /* UIKit.framework */,
+				90CFE34C1400AFD900B03915 /* Foundation.framework */,
+				90CFE34E1400AFD900B03915 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90CFE3501400AFD900B03915 /* SafeHome */ = {
+			isa = PBXGroup;
+			children = (
+				90CFE3591400AFD900B03915 /* SafeHomeAppDelegate.h */,
+				90CFE35A1400AFD900B03915 /* SafeHomeAppDelegate.m */,
+				90CFE35C1400AFD900B03915 /* MainWindow.xib */,
+				90CFE35F1400AFD900B03915 /* SafeHomeViewController.h */,
+				90CFE3601400AFD900B03915 /* SafeHomeViewController.m */,
+				90CFE3621400AFD900B03915 /* SafeHomeViewController.xib */,
+				90CFE3511400AFD900B03915 /* Supporting Files */,
+			);
+			path = SafeHome;
+			sourceTree = "<group>";
+		};
+		90CFE3511400AFD900B03915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90CFE3521400AFD900B03915 /* SafeHome-Info.plist */,
+				90CFE3531400AFD900B03915 /* InfoPlist.strings */,
+				90CFE3561400AFD900B03915 /* main.m */,
+				90CFE3581400AFD900B03915 /* SafeHome-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90CFE3451400AFD900B03915 /* SafeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CFE3671400AFD900B03915 /* Build configuration list for PBXNativeTarget "SafeHome" */;
+			buildPhases = (
+				90CFE3421400AFD900B03915 /* Sources */,
+				90CFE3431400AFD900B03915 /* Frameworks */,
+				90CFE3441400AFD900B03915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeHome;
+			productName = SafeHome;
+			productReference = 90CFE3461400AFD900B03915 /* SafeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CFE33D1400AFD800B03915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ideaMAKR;
+			};
+			buildConfigurationList = 90CFE3401400AFD800B03915 /* Build configuration list for PBXProject "SafeHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90CFE33B1400AFD800B03915;
+			productRefGroup = 90CFE3471400AFD900B03915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CFE3451400AFD900B03915 /* SafeHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90CFE3441400AFD900B03915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CFE3551400AFD900B03915 /* InfoPlist.strings in Resources */,
+				90CFE35E1400AFD900B03915 /* MainWindow.xib in Resources */,
+				90CFE3641400AFD900B03915 /* SafeHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90CFE3421400AFD900B03915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CFE3571400AFD900B03915 /* main.m in Sources */,
+				90CFE35B1400AFD900B03915 /* SafeHomeAppDelegate.m in Sources */,
+				90CFE3611400AFD900B03915 /* SafeHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90CFE3531400AFD900B03915 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CFE3541400AFD900B03915 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90CFE35C1400AFD900B03915 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CFE35D1400AFD900B03915 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		90CFE3621400AFD900B03915 /* SafeHomeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CFE3631400AFD900B03915 /* en */,
+			);
+			name = SafeHomeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90CFE3651400AFD900B03915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90CFE3661400AFD900B03915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90CFE3681400AFD900B03915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeHome/SafeHome-Prefix.pch";
+				INFOPLIST_FILE = "SafeHome/SafeHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90CFE3691400AFD900B03915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SafeHome/SafeHome-Prefix.pch";
+				INFOPLIST_FILE = "SafeHome/SafeHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90CFE3401400AFD800B03915 /* Build configuration list for PBXProject "SafeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CFE3651400AFD900B03915 /* Debug */,
+				90CFE3661400AFD900B03915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CFE3671400AFD900B03915 /* Build configuration list for PBXNativeTarget "SafeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CFE3681400AFD900B03915 /* Debug */,
+				90CFE3691400AFD900B03915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CFE33D1400AFD800B03915 /* Project object */;
+}
